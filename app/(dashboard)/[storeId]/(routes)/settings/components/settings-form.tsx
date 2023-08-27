@@ -1,5 +1,7 @@
 "use client";
 
+import { AlertModal } from "@/components/modals/alert-modal";
+import { ApiAlert } from "@/components/ui/api-alert";
 import { Button } from "@/components/ui/button";
 import {
   Form,
@@ -12,6 +14,7 @@ import {
 import Heading from "@/components/ui/heading";
 import { Input } from "@/components/ui/input";
 import { Separator } from "@/components/ui/separator";
+import { useOrigin } from "@/hooks/use-origin";
 import { zodResolver } from "@hookform/resolvers/zod";
 import axios from "axios";
 import { Trash } from "lucide-react";
@@ -39,10 +42,13 @@ export const SettingsForm: React.FC<SettingsFormProps> = ({ initialData }) => {
 
   const [open, setOpen] = useState(false);
   const [loading, setLoading] = useState(false);
+  const origin = useOrigin();
   const form = useForm<SettingsFormValues>({
     resolver: zodResolver(formSchema),
     defaultValues: initialData,
   });
+
+  // onDelete -> delete store -> refresh page -> redirect to root page (root layout will check if user has store and open createStore Modal if not found -> create store page will check if user has store and redirect to dashboard if found )
 
   const onSubmit = async (data: SettingsFormValues) => {
     try {
@@ -58,6 +64,24 @@ export const SettingsForm: React.FC<SettingsFormProps> = ({ initialData }) => {
       setLoading(false);
     }
   };
+
+  const onDelete = async () => {
+    try {
+      setLoading(true);
+      // Delete store
+      await axios.delete(`/api/stores/${params.storeId}`);
+      router.refresh();
+
+      router.push("/");
+      toast.success("Store deleted successfully");
+    } catch (error) {
+      toast.error("Make sure you removed all products and categories first");
+    } finally {
+      setLoading(false);
+      setOpen(false);
+    }
+  };
+
   return (
     <>
       <div className="flex items-center justify-between">
