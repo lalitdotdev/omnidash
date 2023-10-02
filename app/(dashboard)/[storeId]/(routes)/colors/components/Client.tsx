@@ -25,7 +25,7 @@ const ColorClient: React.FC<ColorClientProps> = ({ data }) => {
           description="Manage Color for your store"
         />
 
-        <Button onClick={() => router.push(`/${params.storeId}/color/new`)}>
+        <Button onClick={() => router.push(`/${params.storeId}/colors/new`)}>
           <Plus className="mr-2 h-4 w-4">Add New Size</Plus>
         </Button>
       </div>
