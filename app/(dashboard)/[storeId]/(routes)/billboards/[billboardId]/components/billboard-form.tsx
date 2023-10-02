@@ -32,7 +32,7 @@ interface BillboardFormProps {
 
 // formSchema -> BillboardFormValues -> BillboardForm using react hook form -> onSubmit -> update store
 const formSchema = z.object({
-  label: z.string().min(3).max(25).nonempty(),
+  label: z.string().min(3).nonempty(),
   imageUrl: z.string().url(),
 });
 
@@ -189,7 +189,6 @@ export const BillboardForm: React.FC<BillboardFormProps> = ({
           </Button>
         </form>
       </Form>
-      <Separator />
     </>
   );
 };

@@ -365,6 +365,8 @@ export const ProductForm: React.FC<ProductFormProps> = ({
                 </FormItem>
               )}
             />
+
+            {/* Formfield for checkbox   */}
             <FormField
               control={form.control}
               name="isArchived"
