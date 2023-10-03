@@ -4,13 +4,12 @@
 
 This is a repository for a Full Stack E-Commerce + Dashboard & CMS: Next.js 13 App Router, React, Tailwind, Prisma, MySQL
 
-Key Features:
-
 **Key Features**:
 
 1. **Unified Admin Dashboard as CMS, Admin, and API**:
 
    - The admin dashboard serves as a versatile hub, offering CMS capabilities, administrative tools, and API endpoints all in one place.
+     
      **Customizable**
      The dashboard is highly customizable to suit your specific needs. It provides API endpoints that allow you to connect and create tailored functionality. You can customize the dashboard to handle various tasks, manage different types of content, and adapt it to your unique requirements.
 
