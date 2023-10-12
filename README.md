@@ -78,7 +78,7 @@ In summary, this Full Stack E-Commerce + Dashboard & CMS project offers a compre
 ### Cloning the repository
 
 ```shell
-git clone https://github.com/mrExplorist/store-dash.git
+https://github.com/mrExplorist/AdaptoCMS.git
 ```
 
 ### Install packages
