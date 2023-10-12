@@ -1,6 +1,6 @@
 # Full Stack E-Commerce + Dashboard & CMS: Next.js 13 App Router, React, Tailwind, Prisma, MySQL, 2023
 
-![store-dash](https://socialify.git.ci/mrExplorist/store-dash/image?description=1&descriptionEditable=Full%20Stack%20E-Commerce%20%2B%20Dashboard%20%26%20CMS%3A%20Next.js%2013%20App%20Router%2C%20React%2C%20Tailwind%2C%20Prisma%2C%20MySQL%0A%0A&language=1&name=1&owner=1&pattern=Plus&pulls=1&stargazers=1&theme=Light)
+![store-dash](https://socialify.git.ci/mrExplorist/AdaptoCMS/image?description=1&descriptionEditable=Full%20Stack%20E-Commerce%20%2B%20Dashboard%20%26%20CMS%3A%20Next.js%2013%20App%20Router%2C%20React%2C%20Tailwind%2C%20Prisma%2C%20MySQL%0A%0A&language=1&name=1&owner=1&pattern=Plus&pulls=1&stargazers=1&theme=Light)
 
 This is a repository for a Full Stack E-Commerce + Dashboard & CMS: Next.js 13 App Router, React, Tailwind, Prisma, MySQL
 
