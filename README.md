@@ -74,7 +74,7 @@ This is a repository for a Full Stack E-Commerce + Dashboard & CMS: Next.js 13 A
 - Utilize a powerful combination of MySQL, Prisma, and PlanetScale for your database needs. This ensures efficient data storage, retrieval, and scalability, enabling your e-commerce platform to handle increased loads as your business grows.
 
   
-## For Dukaan Specific Dashboard Addon implementations assigned.
+## For Dukaan Specific Dashboard Addon implementations assigned , improvements , and enhancements.
 This addon enhances the dashboard with powerful features and improvements for a seamless user experience.
 
 Features
