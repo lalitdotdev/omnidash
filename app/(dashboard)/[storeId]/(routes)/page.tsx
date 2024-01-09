@@ -1,13 +1,14 @@
-import { getGraphRevenue } from "@/actions/get-graph-revenue";
-import { getSalesCount } from "@/actions/get-sales-count";
-import { getStockCount } from "@/actions/get-stocks-count";
-import { getTotalRevenue } from "@/actions/get-total-revenue";
-import { Overview } from "@/components/overview";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import Heading from "@/components/ui/heading";
-import { Separator } from "@/components/ui/separator";
-import { formatter } from "@/lib/utils";
-import { CreditCard, DollarSign, Package2 } from "lucide-react";
+import { getGraphRevenue } from '@/actions/get-graph-revenue';
+import { getSalesCount } from '@/actions/get-sales-count';
+import { getStockCount } from '@/actions/get-stocks-count';
+import { getTotalRevenue } from '@/actions/get-total-revenue';
+import { Overview } from '@/components/overview';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import Heading from '@/components/ui/heading';
+import { Separator } from '@/components/ui/separator';
+import { rupeeFormatter } from '@/lib/utils';
+
+import { CreditCard, DollarSign, Package2 } from 'lucide-react';
 
 interface DashboardPageProps {
   params: {
@@ -30,16 +31,12 @@ const DashboardPage: React.FC<DashboardPageProps> = async ({ params }) => {
         <div className="grid gap-4 grid-cols-3">
           <Card>
             <CardHeader className="flex flex-row items-center justify-between space-y-6">
-              <CardTitle className="text-sm font-medium">
-                Total Revenue
-              </CardTitle>
+              <CardTitle className="text-sm font-medium">Total Revenue</CardTitle>
 
               <DollarSign className="h-4 w-4 text-muted-foreground" />
             </CardHeader>
             <CardContent>
-              <div className="text-2xl font-bold">
-                {formatter.format(totalRevenue)}
-              </div>
+              <div className="text-2xl font-bold">{rupeeFormatter.format(totalRevenue)}</div>
             </CardContent>
           </Card>
           <Card>
@@ -54,9 +51,7 @@ const DashboardPage: React.FC<DashboardPageProps> = async ({ params }) => {
           </Card>
           <Card>
             <CardHeader className="flex flex-row items-center justify-between space-y-6">
-              <CardTitle className="text-sm font-medium">
-                Products in Stock
-              </CardTitle>
+              <CardTitle className="text-sm font-medium">Products in Stock</CardTitle>
 
               <Package2 className="h-4 w-4 text-muted-foreground" />
             </CardHeader>
