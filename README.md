@@ -4,6 +4,9 @@
 
 This is a repository for a Full Stack E-Commerce + Dashboard & CMS: Next.js 13 App Router, React, Tailwind, Prisma, MySQL
 
+
+
+
 **Key Features**:
 
 1. **Unified Admin Dashboard as CMS, Admin, and API**:
@@ -12,6 +15,7 @@ This is a repository for a Full Stack E-Commerce + Dashboard & CMS: Next.js 13 A
      
      **Customizable**
      The dashboard is highly customizable to suit your specific needs. It provides API endpoints that allow you to connect and create tailored functionality. You can customize the dashboard to handle various tasks, manage different types of content, and adapt it to your unique requirements.
+     
 
 2. **Multi-Vendor Support**:
 
@@ -69,7 +73,26 @@ This is a repository for a Full Stack E-Commerce + Dashboard & CMS: Next.js 13 A
 
 - Utilize a powerful combination of MySQL, Prisma, and PlanetScale for your database needs. This ensures efficient data storage, retrieval, and scalability, enabling your e-commerce platform to handle increased loads as your business grows.
 
-In summary, this Full Stack E-Commerce + Dashboard & CMS project offers a comprehensive set of features to create a dynamic and user-friendly online shopping experience. From flexible vendor management to advanced search capabilities and secure payment processing, this application equips you with the tools needed to succeed in the competitive world of e-commerce. Whether you're launching a new store or expanding your existing business, these features provide a solid foundation for your online presence.
+  
+## For Dukaan Specific Dashboard Addon implementations assigned.
+This addon enhances the dashboard with powerful features and improvements for a seamless user experience.
+
+Features
+1. Dynamic DataTable
+Sorting: Implemented dynamic sorting for columns, enhancing data organization.
+Search: Introduced a search bar for quick and efficient data filtering.
+Pagination: Added pagination controls to navigate through large datasets with ease.
+2. StickyDynamicNav
+Resizable and Collapsible Navigation Panel: Enhanced the navigation panel with resizable and collapsible functionalities, providing flexibility and space optimization.
+Cookie Persistence: Integrated cookie storage for remembering user preferences, such as layout and collapse state.
+3. Mail Display/List Enhancement
+Improved Mail List: Refined the Mail List component with updated layouts, filters, and search options.
+Tabs for Mail Categories: Implemented tabs for 'All Mail' and 'Unread,' improving mail categorization.
+4. Styling Changes
+Polished UI: Applied detailed styling updates for a more polished and user-friendly interface.
+
+
+Full Stack E-Commerce + Dashboard & CMS project offers a comprehensive set of features to create a dynamic and user-friendly online shopping experience. From flexible vendor management to advanced search capabilities and secure payment processing, this application equips you with the tools needed to succeed in the competitive world of e-commerce. Whether you're launching a new store or expanding your existing business, these features provide a solid foundation for your online presence.
 
 ### Prerequisites
 
