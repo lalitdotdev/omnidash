@@ -5,6 +5,14 @@
 This is a repository for a Full Stack E-Commerce + Dashboard & CMS: Next.js 13 App Router, React, Tailwind, Prisma, MySQL
 
 
+
+
+[See the demo of dashboard](https://www.loom.com/share/6d887cfb34c548168db2ff089d60fe47?sid=f2a7c9f9-c884-4d6b-956a-63b8e872e558)
+
+
+
+[Demonstrated real-time synchronization between the frontend store and admin dashboard, showcasing dynamic updates for product addition, featuring, and Stripe payment checkouts. Witness the seamless and instant reflection of changes in the admin dashboard as actions occur on the frontend, providing a responsive and efficient e-commerce management system. Explore the video to witness the live interaction and synchronized workflows between the two components.](https://www.loom.com/share/a22527e080d14f74b272bd817f0e6c34?sid=cb25e9a5-049b-482c-822c-1fc3ffbc6716)
+
 # [Frontend store url](https://buywithease.vercel.app/) 
 
 # [Frontend store source code](https://github.com/mrExplorist/e-store) 
