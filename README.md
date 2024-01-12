@@ -11,7 +11,7 @@ This is a repository for a Full Stack E-Commerce + Dashboard & CMS: Next.js 13 A
 
 
 
-[Demonstrated real-time synchronization between the frontend store and admin dashboard, showcasing dynamic updates for product addition, featuring, and Stripe payment checkouts. Witness the seamless and instant reflection of changes in the admin dashboard as actions occur on the frontend, providing a responsive and efficient e-commerce management system. Explore the video to witness the live interaction and synchronized workflows between the two components.](https://www.loom.com/share/a22527e080d14f74b272bd817f0e6c34?sid=cb25e9a5-049b-482c-822c-1fc3ffbc6716)
+[Demonstrated real-time synchronization between the frontend store and admin dashboard, showcasing dynamic updates for product addition, featuring, and Stripe payments etc.](https://www.loom.com/share/a22527e080d14f74b272bd817f0e6c34?sid=cb25e9a5-049b-482c-822c-1fc3ffbc6716)
 
 # [Frontend store url](https://buywithease.vercel.app/) 
 
