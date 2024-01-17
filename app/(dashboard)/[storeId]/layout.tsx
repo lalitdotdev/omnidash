@@ -41,9 +41,10 @@ export default async function DashboardLayout({
 
   return (
     <>
+      <div className="min-h-screen">
       <Navbar />
-
       {children}
+      </div>
       <div className="hidden flex-col md:flex">
         <StickyDynamicNav
           accounts={accounts}
